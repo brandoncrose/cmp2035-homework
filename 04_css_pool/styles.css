@@ -1,5 +1,7 @@
 body {background-color: pink ;}
 
+* {font-family: Futura;}
+
 h1 {font-size: 500%;
 	font-family: Baskerville;
 	text-align: right}
@@ -13,3 +15,4 @@ li {font-style: italic;}
 
 td {text-align: center;}
 
+figcaption {font-weight: bold}
