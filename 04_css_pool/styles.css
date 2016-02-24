@@ -1,18 +1,15 @@
-body {background-color: #F0F0F0 ;}
+body {background-color: pink ;}
 
-h1 {font-size: 250%;
-	font-family: Georgia;
-	text-align: center
-}
+h1 {font-size: 500%;
+	font-family: Baskerville;
+	text-align: right}
 
-h2 {color: #787878; 
+h2 {color: red; 
 font-size: 150%;
-font-family: Verdana}
+font-family: Garamond;
+font-style: italic}
 
-figcaption {padding: 2px;
-font-variant: small-caps;
-font-size: 125%}
+li {font-style: italic;}
 
-img {box-shadow: 10px 7.5px 10px #888888;}
+td {text-align: center;}
 
-p {font-size: 105%;}
