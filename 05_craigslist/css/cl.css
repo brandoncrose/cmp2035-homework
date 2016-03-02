@@ -1,5 +1,5 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
-margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;color:#1ec503;}
 
 ul{
 list-style:none}
@@ -269,13 +269,13 @@ background:#f7f7f7}
 display:block;float:right;padding:2px 8px 0 0}
 
 .posting .postingtitle{
-font-family:"Bitstream Vera Serif","Times New Roman",serif;font-size:1.4em;font-weight:bold;line-height:1.4em;margin:10px 0;clear:left}
+font-family:"Bitstream Vera Serif","Times New Roman",serif;font-size:1.4em;font-weight:bold;line-height:1.4em;margin:10px 0;clear:left;color:#1ec503;}
 
 .posting .postingtitle .star{
 vertical-align:baseline}
 
 .posting .tsb{
-border:1px solid #eee;margin:0 0 1em 0;padding:5px 8px}
+border:1px dotted #1ec503;margin:0 0 1em 0;padding:5px 8px}
 
 .posting aside.tsb{
 font-size:small}
@@ -308,10 +308,10 @@ color:#f00}
 text-decoration:none}
 
 .posting .flaglink .flagtext{
-text-decoration:underline;margin-left:0.15em;margin-right:0.3em}
+color:#1ec503;text-decoration:underline;margin-left:0.15em;margin-right:0.3em}
 
 .posting .bestof{
-color:#ddd;font-size:1.5em;vertical-align:middle}
+cfont-size:1.5em;vertical-align:middle}
 
 .posting .bestof.done{
 color:red}
@@ -326,7 +326,7 @@ color:pink}
 text-decoration:underline}
 
 .posting .dateReplyBar{
-font-size:smaller;position:relative;z-index:1000}
+color:#1ec503;font-size:smaller;position:relative;z-index:1000}
 
 .posting .dateReplyBar a{
 white-space:nowrap}
@@ -359,7 +359,7 @@ margin-top:.5em;display:block}
 clear:left}
 
 #postingbody{
-font-family:"Bitstream Vera Serif","Times New Roman",serif}
+font-family:"Bitstream Vera Serif","Times New Roman",serif;color:#1ec503;}
 
 #postingbody p{
 margin-bottom:16px}
@@ -518,7 +518,8 @@ position:relative;max-width:440px;height:330px;display:none}
 display:block}
 
 .w1024 .iw .carousel .tray .slide{
-max-width:600px;height:450px}
+max-width:600px;height:450px;background:url("../img/MatrixDigitalRain.png");margin-left: auto;
+    margin-right: auto}
 
 .iw .carousel .tray .slide img{
 max-width:100%;max-height:100%}
@@ -539,7 +540,7 @@ text-decoration:none;float:left;line-height:0}
 height:40px;width:40px;border:solid 1px transparent}
 
 .iw #thumbs img.selected{
-border:solid 1px orange;-webkit-box-shadow:0 0 0 1px #ffa500;-moz-box-shadow:0 0 0 1px #ffa500;box-shadow:0 0 0 1px #ffa500}
+border:dotted 1px #1ec503;-webkit-box-shadow:0 0 0 1px #ffa500;-moz-box-shadow:0 0 0 1px #ffa500;box-shadow:0 0 0 1px #ffa500}
 
 .w1024 .iw #thumbs img{
 height:48px;width:48px}
@@ -584,7 +585,7 @@ text-align:right;margin-top:5px}
 margin-left:0.3em}
 
 .posting .attrgroup span{
-background-color:#fafafa;border:1px solid #ccc;-webkit-border-radius:.25em;-moz-border-radius:.25em;border-radius:.25em;padding:.15em .4em;white-space:nowrap;line-height:1.85em;font-size:.9em}
+color:#1ec503;border:1px dotted #1ec503;-webkit-border-radius:.25em;-moz-border-radius:.25em;border-radius:.25em;padding:.15em .4em;white-space:nowrap;line-height:1.85em;font-size:.9em}
 
 .posting .bigattr{
 background-color:#fafafa;border:1px solid #ccc;-webkit-border-radius:.25em;-moz-border-radius:.25em;border-radius:.25em;padding:.15em .4em;font-size:.9em;margin-left:0.3em}
@@ -644,7 +645,7 @@ font-size:14px;white-space:nowrap}
 font-size:1em;margin-bottom:1.5em}
 
 a.showcontact{
-background-color:#fffff;border:1px solid #aad;-webkit-border-radius:.5em;-moz-border-radius:.5em;border-radius:.5em;color:#00b;font-size:0.8em;padding-left:0.3em;padding-right:0.3em;text-decoration:none;white-space:nowrap}
+color:#1ec503;border:1px dotted #1ec503;-webkit-border-radius:.5em;-moz-border-radius:.5em;border-radius:.5em;font-size:0.8em;padding-left:0.3em;padding-right:0.3em;text-decoration:none;white-space:nowrap}
 
 a.showcontact:hover{
 color:#00f;border:1px solid #00f}
@@ -875,10 +876,10 @@ display:none}
 background-image: url("../img/MatrixDigitalRain.png");font-color:#1ec503;padding:3px 0 0 10px}
 
 .toc #searchtable button,.toc #searchtable #searchbtn,.toc #searchtable label{
-cursor:pointer}
+cursor:pointer; color:white;}
 
 .toc #searchtable button,.toc #searchtable label,.toc #searchtable select,.toc #searchtable input{
-font-size:1em}
+font-size:1em; color:white !important;}
 
 .toc #searchtable #hoodpicker{
 display:-moz-inline-stack;display:inline-block;*display:inline;*zoom:1}
