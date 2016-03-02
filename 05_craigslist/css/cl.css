@@ -653,7 +653,7 @@ color:#00f;border:1px solid #00f}
 white-space:nowrap}
 
 .toc a{
-text-decoration:none}
+text-decoration:none; color:#1ec503;}
 
 .toc a:hover{
 text-decoration:underline}
@@ -1001,10 +1001,10 @@ clear:both}
 clear:both}
 
 .toc .row .gc{
-padding:2px;background:#eee;font-size:smaller}
+padding:2px;font-size:smaller}
 
-.toc .row .gc:hover{
-background:#f7f7f7}
+/*.toc .row .gc:hover{
+background:#f7f7f7}*/
 
 .toc .row .i{
 margin-right:10px;clear:both;background-repeat:no-repeat;background-position:center center;overflow:hidden;display:none}
@@ -1022,13 +1022,13 @@ content:' - '}
 font-family:"Bitstream Vera Serif","Times New Roman",serif}
 
 .toc .row .date{
-font-size:smaller;display:none}
+color:#1ec503;display:none}
 
 .toc .row span.p{
-color:orange;font-size:smaller}
+color:#1ec503;font-size:smaller}
 
 .toc .row span.p .maptag{
-color:#080}
+color:#1ec503}
 
 .toc .row .star{
 float:left;margin-right:5px}
@@ -1052,7 +1052,7 @@ position:relative;display:none}
 margin-bottom:1em}
 
 .toc.list .row .pnr small{
-white-space:nowrap}
+white-space:nowrap; color:#1ec503;}
 
 .toc.pic .row{
 height:50px;margin:10px 0}
@@ -1124,7 +1124,7 @@ display:none}
 display:inline}
 
 .toc #mapcontainer .date:after,.toc .l2 .price{
-font-size:.8em;border:1px solid #ccc;-webkit-border-radius:.25em;-moz-border-radius:.25em;border-radius:.25em;padding:1px 3px}
+font:.8em;color:#1ec503;font-size:smaller;border:1px dotted #1ec503;-webkit-border-radius:.25em;-moz-border-radius:.25em;border-radius:.25em;padding:1px 3px}
 
 .toc #floater{
 position:absolute;overflow:hidden;z-index:999;display:none;border:2px solid #ccc;background:white}
