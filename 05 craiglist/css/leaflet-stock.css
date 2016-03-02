@@ -149,6 +149,10 @@ cursor:-webkit-grab;cursor:-moz-grab
 .leaflet-popup-pane,.leaflet-control {
 cursor:auto
 }
+.mapAndAttrs {
+	height: px;
+	width: 300px;
+}
 
 .leaflet-dragging .leaflet-container,.leaflet-dragging .leaflet-clickable {
 cursor:move;cursor:-webkit-grabbing;cursor:-moz-grabbing
