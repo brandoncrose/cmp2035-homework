@@ -29,7 +29,7 @@ html,body{
 height:100%;position:relative}
 
 body{
-background:white;color:#222;font-family:sans-serif}
+background:black;color:#222;font-family:sans-serif}
 
 img{
 border:0}
@@ -700,11 +700,11 @@ float:right}
 .toc .daybubbles{
 -moz-border-radius:7px;-webkit-border-radius:7px;border:1px #ddd solid;padding:3px 7px 3px 7px;background-color:white}
 
-.savesearch{
-font-size:small;font-style:italic}
+.savesearch{padding-left: 2px;
+font-size:large;font-style:italic}
 
-.savesearch a:visited{
-color:#0000ee}
+.savesearch a{
+color:white}
 
 .toc .experimentalFeature{
 padding-top:5px;padding-left:4px}
@@ -872,7 +872,7 @@ margin-bottom:10px}
 display:none}
 
 .toc #searchtable{
-background:#eee;padding:3px 0 0 10px}
+background-image: url("../img/MatrixDigitalRain.png");font-color:#1ec503;padding:3px 0 0 10px}
 
 .toc #searchtable button,.toc #searchtable #searchbtn,.toc #searchtable label{
 cursor:pointer}
@@ -883,7 +883,7 @@ font-size:1em}
 .toc #searchtable #hoodpicker{
 display:-moz-inline-stack;display:inline-block;*display:inline;*zoom:1}
 
-.toc #searchtable .searchgroup{
+.toc #searchtable .searchgroup{color:white; font-weight: bold; text-transform: uppercase;
 white-space:nowrap;margin:2px 2px 4px 0;vertical-align:middle;line-height:1.5em;display:-moz-inline-stack;display:inline-block;*display:inline;*zoom:1}
 
 .toc #searchtable .searchgroup .dv{
@@ -1043,7 +1043,7 @@ max-width:980px}
 max-width:none}
 
 .toc .searchform #searchfieldset{
-border:1px solid #ccc;padding:0 0 5px 0;margin:auto}
+background-image: url("../img/MatrixDigitalRain.png"); border:1px solid #ccc;padding:0 0 5px 0;margin:auto}
 
 .toc #mapcontainer{
 position:relative;display:none}
