@@ -108,7 +108,9 @@ header h2 {
 	height:  246px;
 	float: left;
 	background-color: #1A283D;
-	opacity: 0.6; 
+    background-color: rgba(26, 40, 61, 0.2) ;
+    /*    rgba or hsla  */
+    /*	opacity: 0.6; */
 	}
 .summary p {
 	padding: 0 5px 3px 5px;
