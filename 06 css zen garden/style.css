@@ -7,7 +7,7 @@
 
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
-
+@import 'reset.css';
 
 @font-face {
     font-family: raleway;
@@ -19,7 +19,7 @@
     font-weight: bold;
 }
 @font-face {
-    font-family: JosefinSans;
+    font-faily: JosefinSans;
     src: url(fonts/JosefinSans-Bold.ttf) format('truetype');
     font-weight: bold;
 }
@@ -41,16 +41,20 @@ body {
 	color: #272A30; 
 	margin: 0; 
 	padding: 0;
+    display: block;
 	}
 p { 
-	margin-top: 0; 
 	text-align: justify;
+	display: block;
+	margin: 20px 20px;
 	}
 h3 { 
 	font: normal 2em sans-serif;
 	font-family: 'telegrafico';
 	font-weight: bold; 
-	margin-bottom: 10px; 
+	margin-top: 1em;
+	margin-bottom: 0px; 
+	margin-left: 20px;
 	color: #39A4A7;
 	}
 a:link { 
@@ -105,15 +109,17 @@ header h2 {
 
 .summary {
 	clear: both; 
-	margin: 30px 20px 0px 10px; 
+	margin: 32px 20px 0px 10px; 
 	width: 200px;
-	height:  246px;
 	float: left;
 	background-color: #1A283D;
     background-color: rgba(26, 40, 61, 0.2) ;
     /*    rgba or hsla  */
     /*	opacity: 0.6; */
 	}
+	header, div {
+    display: block;
+}
 .summary p {
 	padding: 0 5px 3px 5px;
 	font-family: "raleway";
@@ -130,12 +136,14 @@ header h2 {
 .preamble {
 	clear: right; 
 	padding: 0px 10px 0 10px;
+	background-color: rgba(245,251,255,0.4);
 	}
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
-	background-color: #F5FBFF;
-	opacity: 0.8;
+	background-color: rgba(211,221,227,0.4);
+	/*background-color: #F5FBFF;
+	opacity: 0.8;*/
 	}
 
 footer { 
@@ -147,22 +155,25 @@ footer a:link, footer a:visited {
 
 .sidebar {
 	margin-left: 600px; 
-	position: absolute; 
+	position: fixed; 
 	top: 0; 
 	right: 0;
-	background-color: #C5E2DE;
+	height: 100%;
+	background-color:#C5E2DE;
+
 	opacity: 0.6; 
+	background-color: rgba(197,226,222,0.6);
 	}
 .sidebar .wrapper { 
 	font: 14px sans-serif; 
 	font-family: "JosefinSans";
 	font-weight: bold;
 	padding: 10px; 
-	margin-top: 150px; 
+	margin-top: 15px; 
 	width: 130px; 
 	}
 
-.sidebar h3.select { 
+/*.sidebar h3.select { 
 	margin: 0 0 3px 0; 
 	font-size: 18px;
 	color: #2A3B3C;
@@ -172,9 +183,10 @@ footer a:link, footer a:visited {
 	font-size: 18px;
 	color: #2A3B3C;
 	}
-.sidebar h3.resources { 
-	margin: 0 0 3px 0; 
-	font-size: 18px;
+*/
+.sidebar h3{ 
+	margin: 2px; 
+	font-size: 22px;
 	color: #2A3B3C;
 	}
 
@@ -187,8 +199,8 @@ footer a:link, footer a:visited {
 .sidebar li {
 	line-height: 1.3em; 
 	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
+	padding-top: 3px; 
+	margin-bottom: 3px;
 	list-style-type: none;
 	}
 .sidebar li a:link {
