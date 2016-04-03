@@ -9,6 +9,22 @@
 
 
 /* basic elements */
+@font-face {
+    font-family: 'RINGM___';
+    src: url('fonts/RINGM___.TTF');
+}
+@font-face {
+    font-family: 'hobbitonbrushhand';
+    src: url('fonts/hobbitonbrushhand.ttf');
+}
+@font-face {
+    font-family: 'anirm___';
+    src: url('fonts/anirm___.ttf');
+}
+@font-face {
+    font-family: 'bilboregular';
+    src: url('fonts/bilboregular.ttf');
+}
 html {
 	margin: 0;
 	padding: 0;
@@ -22,11 +38,14 @@ body {
 	padding: 0;
 	}
 p { 
+    font-family: 'hobbitonbrushhand';
+    font-size: 150%;
 	margin-top: 0; 
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font-family: 'RINGM___';
+    font-size: 250%;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
@@ -95,11 +114,11 @@ header {
 .summary {
 	clear: both; 
 	margin: 20px 20px 20px 10px; 
-	width: 160px; 
+	width: 200px; 
 	float: left;
 	}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
+	font-family: 'anirm___'; 
 	text-align: center;
 	}
 
@@ -113,6 +132,7 @@ header {
 	}
 
 footer { 
+    font-family: anirm___;
 	text-align: center; 
 	}
 footer a:link, footer a:visited { 
@@ -169,6 +189,7 @@ footer a:link, footer a:visited {
 	padding: 0;
 	}
 .sidebar li {
+    font-family: anirm___;
 	line-height: 1.3em; 
 	background: transparent url(cr1.gif) no-repeat top center; 
 	display: block; 
