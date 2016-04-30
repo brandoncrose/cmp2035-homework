@@ -10,17 +10,38 @@ header {}
 
 #news {}
 
-#content {}
+#content {
+    margin: 0px;
+}
 
 .nav {
-    border: 2px solid #ffffff;
+    float: left;
+    /*
+    border: 2px solid #000000;
     border-radius: 7px;
-    font-size: 300%;
+    padding: 0em 2em 0em 2em;
+*/
 }
 
 #blog {}
 
 #glossary {}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 3em;
+}
+
+li#horizontal {
+    border: 2px solid #000000;
+    display: inline;
+}
+
+li {
+    border: 2px solid #000000;
+    padding: 0em 2em 0em 2em;
+}
 
 
 /*
