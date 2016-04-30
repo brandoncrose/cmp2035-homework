@@ -1,0 +1,48 @@
+/*
+body {
+    font-family: adelle-sans, Georgia, sans-serif;
+    margin: 10;
+    font-size: 300%;
+}
+*/
+
+header {}
+
+#news {}
+
+#content {}
+
+.nav {
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    font-size: 300%;
+}
+
+#blog {}
+
+#glossary {}
+
+
+/*
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    font-family: "adelle-sans", Helvetica, sans-serif;
+    font-size: 0.7em;
+    width: 240px;
+    height: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 50px;
+*/
+
+
+/*padding-left: 30px ;*/
+
+
+/*padding-right: 30px ;*/
+
+nav {}
